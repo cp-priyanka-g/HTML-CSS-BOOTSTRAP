@@ -1,3 +1,228 @@
 .container {
-  flex-flow: column wrap;
+  background-color: #2b2b2b;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  justify-content: space-evenly;
+}
+
+.lotus {
+  border-radius: 50%;
+}
+
+.topnav {
+  background-color: black;
+  border-radius: 25px;
+
+}
+
+.topnav a {
+  float: left;
+  color: #F3F2F2;
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: lemonchiffon;
+}
+
+.round {
+  width: 15rem;
+  border-radius: 32px;
+  height: 58px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+
+.search {
+  position: relative;
+  width: 190px;
+  height: 30px;
+}
+
+.corner {
+  position: absolute;
+  top: 27px;
+  left: 10px;
+  height: 20px;
+  width: 20px;
+  z-index: 10;
+  border-radius: 10px;
+  border: none;
+  color: #C1C0C0;
+}
+
+input, select, textarea {
+  background-color: #464444;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+h4{
+  font-family:sans-serif;
+  color: white;
+}
+.even-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.top-right {
+  position: absolute;
+  top: 20%;
+  left: 43%;
+}
+
+.heading-align {
+  display: flex;
+  margin-left: 70px;
+
+
+}
+
+p {
+  color: white;
+  font-family: 'Lucida Sans';
+}
+
+
+.bottom-border:before {
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 1px;
+  width: 50%; /* or 100px */
+  border-bottom: 2px solid #C8C81F;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 33%;
+  left: 7%;
+}
+
+.bottom-left2 {
+  position: absolute;
+  bottom: 28%;
+  left: 7%;
+}
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 32%;
+  right: 41%;
+
+}
+/* Bottom right text */
+.bottom-right2 {
+  position: absolute;
+  bottom: 27%;
+    right: 37%;
+}
+.div-img {
+  height: 545px;
+  width: 805px;
+  border-radius: 2%;
+}
+
+.playbtn {
+  height: 50px;
+}
+
+.div2 {
+  background-color: #4E4D4D;
+  height: 113px;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.div2-img {
+  height: 113px;
+  width: 100px;
+  border-radius: 10px;
+}
+/* level 3 Bottom left text */
+ .sm-div1{
+  position: absolute;
+  left: 11%;
+    bottom: 2%;
+}
+.sm-div2{
+  position: absolute;
+  left: 35%;
+  bottom: 2%;
+}
+.sm-div3{
+  position: absolute;
+  left: 59%;
+  bottom: 2%;
+}
+.sm-div4{
+  position: absolute;
+  bottom: 2%;
+  right: 11%;
+}
+.sm-div5{
+  position: absolute;
+  left: 11%;
+  bottom: -14%;
+}
+
+ .sm-div6{
+  position: absolute;
+  bottom: -14%;
+  left: 35%;
+}
+.sm-div7{
+  position: absolute;
+  bottom: -14%;
+  right: 31%;
+}
+.sm-div8{
+  position: absolute;
+  bottom: -14%;
+    right: 9%;
+}
+span{
+  line-height: 25px;
+} 
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4%;
+  background-color: #3E3D3D;
+}
+.footer-img{
+
+  height: 50px;
+  width:50px;
+}
+.player{
+  height:50px;
+}
+.media{
+  height: 70px;
 }
