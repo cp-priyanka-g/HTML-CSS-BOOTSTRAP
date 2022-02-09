@@ -40,7 +40,7 @@
 }
 
 .round {
-  width: 15rem;
+  width: 16rem;
   border-radius: 32px;
   height: 58px;
   border: 1px #000 solid;
@@ -61,7 +61,7 @@
 .corner {
   position: absolute;
   top: 27px;
-  left: 10px;
+  left: 7px;
   height: 20px;
   width: 20px;
   z-index: 10;
@@ -81,6 +81,8 @@ h1 {
 h4{
   font-family:sans-serif;
   color: white;
+  margin-bottom: -13px;
+
 }
 .even-div {
   display: flex;
@@ -102,7 +104,7 @@ h4{
 }
 
 p {
-  color: white;
+  color: grey;
   font-family: 'Lucida Sans';
 }
 
@@ -144,7 +146,7 @@ p {
 }
 .div-img {
   height: 545px;
-  width: 805px;
+  width: 837px;
   border-radius: 2%;
 }
 
@@ -155,7 +157,7 @@ p {
 .div2 {
   background-color: #4E4D4D;
   height: 113px;
-  width: 20%;
+  width: 30%;
   border-radius: 10px;
 }
 
@@ -167,18 +169,18 @@ p {
 /* level 3 Bottom left text */
  .sm-div1{
   position: absolute;
-  left: 11%;
-    bottom: 2%;
+  left: 10%;
+  bottom: 4%;
 }
 .sm-div2{
   position: absolute;
-  left: 35%;
-  bottom: 2%;
+  left: 42%;
+  bottom: 3%;
 }
 .sm-div3{
   position: absolute;
-  left: 59%;
-  bottom: 2%;
+  right: 18%;
+  bottom: 3%;
 }
 .sm-div4{
   position: absolute;
@@ -187,25 +189,21 @@ p {
 }
 .sm-div5{
   position: absolute;
-  left: 11%;
-  bottom: -14%;
+  left: 10%;
+  bottom: -13%;
 }
 
  .sm-div6{
   position: absolute;
-  bottom: -14%;
-  left: 35%;
+  bottom: -13%;
+  right: 20%;
 }
 .sm-div7{
   position: absolute;
-  bottom: -14%;
-  right: 31%;
+  left: 42%;
+  bottom: -13%;
 }
-.sm-div8{
-  position: absolute;
-  bottom: -14%;
-    right: 9%;
-}
+
 span{
   line-height: 25px;
 } 
@@ -224,5 +222,6 @@ span{
   height:50px;
 }
 .media{
-  height: 70px;
+  height: 50px;
+  width: 40rem;
 }
