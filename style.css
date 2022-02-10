@@ -52,7 +52,7 @@
 }
 
 
-.search {
+.search-input {
   position: relative;
   width: 190px;
   height: 30px;
@@ -84,7 +84,7 @@ h4{
   margin-bottom: -13px;
 
 }
-.even-div {
+.gallery-section{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -154,17 +154,22 @@ p {
   height: 50px;
 }
 
-.div2 {
+.sub-gallery {
   background-color: #4E4D4D;
   height: 113px;
   width: 30%;
   border-radius: 10px;
 }
-
-.div2-img {
+.footer-icon{
+  margin-left: -40px;
+}
+.sub-gallery-img {
   height: 113px;
   width: 100px;
   border-radius: 10px;
+}
+.musicplayer{
+  margin-right: 90px;
 }
 /* level 3 Bottom left text */
  .sm-div1{
