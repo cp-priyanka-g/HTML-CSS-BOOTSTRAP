@@ -1,0 +1,231 @@
+.container {
+  background-color: #2b2b2b;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  justify-content: space-evenly;
+}
+
+.lotus {
+  border-radius: 50%;
+}
+
+.topnav {
+  background-color: black;
+  border-radius: 45px;
+  width: 53%;
+
+}
+
+.topnav a {
+  float: left;
+  color: #F3F2F2;
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: lemonchiffon;
+}
+
+.round {
+  width: 15rem;
+  border-radius: 32px;
+  height: 58px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+
+.search-input {
+  position: relative;
+}
+
+.corner {
+  position: absolute;
+  top: 27px;
+  left: 7px;
+  height: 20px;
+  width: 20px;
+  z-index: 10;
+  border-radius: 10px;
+  border: none;
+  color: #C1C0C0;
+}
+
+input, select, textarea {
+  background-color: #464444;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h4 {
+  font-family: sans-serif;
+  color: white;
+  margin-bottom: -13px;
+
+}
+
+.gallery-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-right {
+  position: absolute;
+  top: 32%;
+  left: 43%;
+}
+
+.heading-align {
+  margin-left: 50px;
+}
+
+p {
+  color: grey;
+  font-family: 'Lucida Sans';
+}
+
+
+.bottom-border:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 50%;
+  border-bottom: 2px solid #C8C81F;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 26%;
+  left: 6%;
+}
+
+.text-color {
+  color: white;
+}
+
+.img-icon-spacing {
+  padding: 15px;
+}
+
+.bottom-left2 {
+  position: absolute;
+  bottom: 21%;
+  left: 6%;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 26%;
+  right: 41%;
+
+}
+
+/* Bottom right text */
+.bottom-right2 {
+  position: absolute;
+  bottom: 21%;
+  right: 37%;
+}
+
+.div-img {
+  height: 545px;
+  width: 837px;
+  border-radius: 2%;
+}
+
+.playbtn {
+  height: 50px;
+}
+
+.sub-gallery {
+  background-color: #4E4D4D;
+  height: 113px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.footer-icon {
+  margin-left: -40px;
+}
+
+.sub-gallery-img {
+  height: 113px;
+  width: 100px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+
+
+}
+
+.sub-gallery-margin {
+  margin-top: 30px;
+}
+
+.gs-margin {
+  margin-left: -6%;
+  margin-right: 10%;
+  padding-right: 13%;
+  padding: 30px 0px 30px 0;
+}
+
+.musicplayer {
+  margin-right: 90px;
+}
+
+span {
+  line-height: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4%;
+  background-color: #3E3D3D;
+}
+
+.footer-img {
+
+  height: 100%;
+  width: 6%;
+  margin-left: 40px;
+
+}
+
+.player {
+  height: 50px;
+}
+
+.media {
+  height: 50px;
+  width: 40rem;
+}
+
+.footer-margin {
+  margin-left: -3%;
+}
